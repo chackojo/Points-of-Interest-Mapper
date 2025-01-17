@@ -33,7 +33,7 @@ def get_location_dimensions(location_name):
         raise
 
 def get_pois(location_name, lat, lon):
-    api_key = "AIzaSyCR3tT0USsp6GEFO-dDpGW1JW8965aXnxc"  # Replace with your API key
+    api_key = ""  # Replace with your API key
     radius = 9500  # 2 km radius
 
     # Define POI types with their base weights
